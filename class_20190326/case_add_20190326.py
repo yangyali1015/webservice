@@ -18,9 +18,9 @@ from mysql import connector
 from class_20190326 import mysql_20190326
 
 
-cases=DoExcel('Excelcase.xlsx','add')
+cases=DoExcel('D:\\untitled\class_20190326\Excelcase.xlsx','add')
 case_1=cases.read()
-leaveamount_Sql=Config('con_20190326', 'mysql', 'Sql').getother()['sql']
+leaveamount_Sql=Config('D:\\untitled\class_20190326\con_20190326', 'mysql', 'Sql').getother()['sql']
 # print(*case_1)
 
 

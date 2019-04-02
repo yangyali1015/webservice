@@ -1,10 +1,12 @@
+import sys
+sys.path.append('./')
 import logging
 from class_20190326 .conf_20190326 import Config
 from configparser import ConfigParser
-
+from class_20190326 import case_path
 
 class Loger():
-    def __init__(self,format=Config('con_20190326','loger','format').getstr(),logername='py14',filename='py14日志收集器',msglevel='DEBUG',logerlevel='DEBUG',filelevel='DEBUG',handlerlevel='DEBUG',):
+    def __init__(self,format=Config('D:\\untitled\class_20190326\con_20190326','log','format').getstr(),logername='py14',filename='py14日志收集器',msglevel='DEBUG',logerlevel='DEBUG',filelevel='DEBUG',handlerlevel='DEBUG',):
         self.logername=logername#日志收集器名称
         self.logerlevel=logerlevel#收集器级别
         self.filename=filename#文件输出渠道名称
@@ -54,5 +56,5 @@ class Loger():
         Loger().loger(msg)
 
 if __name__ == '__main__':
-    format=Config('con_20190326','loger','format').getstr()
+    format=Config('con_20190326','log','format').getstr()
     Loger().DEBUG('测试日志')

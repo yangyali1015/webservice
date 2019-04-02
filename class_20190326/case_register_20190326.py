@@ -15,8 +15,8 @@ from class_20190326.mysql_20190326 import Mysql
 from class_20190326.getdata_20190326 import Getdata
 
 
-cf = Config('con_20190326', 'CASE', 'case_id')
-cases=DoExcel('Excelcase.xlsx','register')
+cf = Config('D:\\untitled\class_20190326\con_20190326', 'CASE', 'case_id')
+cases=DoExcel('D:\\untitled\class_20190326\Excelcase.xlsx','register')
 case_1=cases.read()
 
 

@@ -8,6 +8,6 @@ Sql={'sql':'select LeaveAmount from member where MobilePhone=13512365669'}
 normal_phone=13512365669
 normal_pwd=123456
 
-[loger]
+[log]
 format='%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s'
 

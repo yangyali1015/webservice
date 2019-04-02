@@ -17,11 +17,11 @@ from class_20190326.class_re import read_re
 from mysql import connector
 from class_20190326 import mysql_20190326
 
-cf = Config('con_20190326', 'CASE', 'case_id')
-cases=DoExcel('Excelcase.xlsx','withdraw')
+cf = Config('D:\\untitled\class_20190326\con_20190326', 'CASE', 'case_id')
+cases=DoExcel('D:\\untitled\class_20190326\Excelcase.xlsx','withdraw')
 case_1=cases.read()
 # print(*case_1)
-leaveamount_Sql=Config('con_20190326', 'mysql', 'Sql').getother()['sql']
+leaveamount_Sql=Config('D:\\untitled\class_20190326\con_20190326', 'mysql', 'Sql').getother()['sql']
 
 @ddt
 class Test_case(unittest.TestCase):
@@ -39,7 +39,7 @@ class Test_case(unittest.TestCase):
         url=case['URL']
         param=read_re(case['Params'])
         expect=case['ExcepectedResult']
-        db = Config('con_20190326', 'mysql', 'db_config').getother()
+        db = Config('D:\\untitled\class_20190326\con_20190326', 'mysql', 'db_config').getother()
 
         if case['Sql'] is not None:
             sql=(eval(case['Sql']))['sql']

@@ -3,7 +3,7 @@ from openpyxl import load_workbook
 from configparser import  ConfigParser
 from class_20190326 import  conf_20190326
 from class_20190326.conf_20190326 import Config
-cf = Config('con_20190326', 'CASE', 'case_id')
+cf = Config('D:\\untitled\class_20190326\con_20190326', 'CASE', 'case_id')
 class DoExcel:
     '''这是一个读取表格的类'''
     def __init__(self,filename,sheetname):
