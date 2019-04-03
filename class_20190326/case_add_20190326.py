@@ -41,7 +41,7 @@ class Test_case(unittest.TestCase):
 
         param=read_re(case['Params'])#利用正则表达式查找并替换请求参数里面的电话号，密码，id,等等
         expect=case['ExcepectedResult']#期望值
-        db = Config('con_20190326', 'mysql', 'db_config').getother()#数据库连接信息
+        db = Config('D:\\untitled\class_20190326\con_20190326', 'mysql', 'db_config').getother()#数据库连接信息
 
         if case['Sql'] is not None:#如果表格里面sql栏不为空
             sql=(eval(case['Sql']))['sql']#就取出数据库查询的sql
