@@ -1,0 +1,1261 @@
+'2019-04-07 18:24:18,430-DEBUG-loger.py-py14-日志信息:测试日志'
+'2019-04-07 22:03:42,265-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'faultstring': '手机号超过频率限制', 'faultcode': 'soap:Server'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'faultcode': 'soap:Server', 'faultstring': '手机号超过频率限制'}'
+'2019-04-07 22:03:42,641-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?              ++ ++               ^^^^^
+'
+'2019-04-07 22:03:42,641-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?              ++ ++               ^^^^^
+'
+'2019-04-07 22:08:34,336-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'faultcode': 'soap:Server', 'faultstring': '手机号超过频率限制'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'faultcode': 'soap:Server', 'faultstring': '手机号超过频率限制'}'
+'2019-04-07 22:08:34,708-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?              ++ ++               ^^^^^
+'
+'2019-04-07 22:08:34,708-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?              ++ ++               ^^^^^
+'
+'2019-04-07 22:08:50,172-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'faultstring': '手机号超过频率限制', 'faultcode': 'soap:Server'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'faultcode': 'soap:Server', 'faultstring': '手机号超过频率限制'}'
+'2019-04-07 22:08:50,567-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '手机号错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?              ++ ++               ^^^^^
+'
+'2019-04-07 22:08:50,567-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '手机号错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?              ++ ++               ^^^^^
+'
+'2019-04-07 22:19:10,908-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': 'IP地址错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': 'IP地址错误'}
+?              ++ ++               ^^^^^^
+'
+'2019-04-07 22:20:02,746-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '该用户已存在', 'retCode': '20042003'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042003', 'retInfo': '该用户已存在'}
+?              + ++++++               ^^^^^^
+'
+'2019-04-07 22:21:16,619-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042003', 'retInfo': '该用户已存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042003', 'retInfo': '该用户已存在'}
+?              + ++++++               ^^^^^^
+'
+'2019-04-07 22:24:02,543-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retCode': '20042003', 'retInfo': '该用户已存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042003', 'retInfo': '该用户已存在'}
+?              + ++++++               ^^^^^^
+'
+'2019-04-07 22:25:11,559-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?              ++ ++               ^^^^^
+'
+'2019-04-07 22:26:02,597-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042003', 'retInfo': '该用户已存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042003', 'retInfo': '该用户已存在'}
+?              + ++++++               ^^^^^^
+'
+'2019-04-07 22:38:57,517-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户名错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '用户名错误'}
+?              ++ ++               ^^^^^
+'
+'2019-04-07 22:42:42,253-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '用户名错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '用户名错误'}
+?              ++ ++               ^^^^^
+'
+'2019-04-08 12:27:30,699-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '用户名错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '用户名错误'}
+?              ++ ++               ^^^^^
+'
+'2019-04-08 12:30:18,756-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '用户名错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '用户名错误'}
+?              ++ ++               ^^^^^
+'
+'2019-04-08 15:21:45,352-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是eval() arg 1 must be a string, bytes or code object'
+'2019-04-08 15:22:31,373-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是1054 (42S22): Unknown column 'Fmobile' in 'field list''
+'2019-04-08 15:30:25,978-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是1054 (42S22): Unknown column 'a' in 'where clause''
+'2019-04-08 15:36:55,543-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.114.114' at line 1'
+'2019-04-08 15:38:51,539-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''192.163.114.114' at line 1'
+'2019-04-08 15:39:12,024-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.114.114' at line 1'
+'2019-04-08 15:46:05,217-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '手机号错误', 'retCode': '19001'} != {'retInfo': '用户名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^
+
++ {'retCode': '19001', 'retInfo': '用户名错误'}
+?                                  ^^^
+'
+'2019-04-08 15:46:05,468-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '验证码错误', 'retCode': '19001'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '验证码错误'}
+?                                  ^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^
+'
+'2019-04-08 15:46:05,468-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '验证码错误', 'retCode': '19001'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '验证码错误'}
+?                                  ^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^
+'
+'2019-04-08 15:46:05,952-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户名已存在', 'retCode': '19001'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:46:05,952-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户名已存在', 'retCode': '19001'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:46:05,952-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户名已存在', 'retCode': '19001'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:46:06,186-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户名已存在', 'retCode': '19001'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:46:06,186-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户名已存在', 'retCode': '19001'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:46:06,186-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户名已存在', 'retCode': '19001'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:46:06,186-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户名已存在', 'retCode': '19001'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:48:03,722-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '验证码错误'} != {'retCode': '19001', 'retInfo': '手机号错误'}
+- {'retCode': '19001', 'retInfo': '验证码错误'}
+?                                  ^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^
+'
+'2019-04-08 15:48:04,221-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '用户名已存在'} != {'retCode': '19001', 'retInfo': '手机号错误'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:48:04,221-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '用户名已存在'} != {'retCode': '19001', 'retInfo': '手机号错误'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:48:04,514-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '用户名已存在'} != {'retCode': '19001', 'retInfo': '手机号错误'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:48:04,514-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '用户名已存在'} != {'retCode': '19001', 'retInfo': '手机号错误'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:48:04,514-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '用户名已存在'} != {'retCode': '19001', 'retInfo': '手机号错误'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:54:35,815-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户名已存在', 'retCode': '19001'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:54:36,046-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户名已存在', 'retCode': '19001'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:54:36,046-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户名已存在', 'retCode': '19001'} != {'retInfo': '手机号错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?                                  ^^^^^^
+
++ {'retCode': '19001', 'retInfo': '手机号错误'}
+?                                  ^^^^^
+'
+'2019-04-08 15:56:34,397-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '用户名已存在'} != {'retCode': '20042003', 'retInfo': '该用户已存在'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?              ^^  ^                 -
+
++ {'retCode': '20042003', 'retInfo': '该用户已存在'}
+?              ^  ^^^^^               +
+'
+'2019-04-08 15:56:34,654-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '用户名已存在'} != {'retCode': '20042023', 'retInfo': '该手机号已被注册'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?              ^^  ^               ^^^ ^^
+
++ {'retCode': '20042023', 'retInfo': '该手机号已被注册'}
+?              ^  ^^^^^               ^^^^ ^^^
+'
+'2019-04-08 15:56:34,654-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '用户名已存在'} != {'retCode': '20042023', 'retInfo': '该手机号已被注册'}
+- {'retCode': '19001', 'retInfo': '用户名已存在'}
+?              ^^  ^               ^^^ ^^
+
++ {'retCode': '20042023', 'retInfo': '该手机号已被注册'}
+?              ^  ^^^^^               ^^^^ ^^^
+'
+'2019-04-08 22:51:29,267-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是unsupported operand type(s) for -: 'str' and 'int''
+'2019-04-08 22:52:10,720-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是unsupported operand type(s) for -: 'str' and 'int''
+'2019-04-08 23:23:11,138-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是100006950 != 100006949'
+'2019-04-08 23:24:49,311-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是100006951 != 100006950'
+'2019-04-08 23:25:34,744-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是100006952 != 100006951'
+'2019-04-08 23:27:34,482-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是100006953 != 100006952'
+'2019-04-08 23:44:30,596-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是1054 (42S22): Unknown column 'user_1193' in 'where clause''
+'2019-04-08 23:46:33,006-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是100006957 != 100006956'
+'2019-04-08 23:47:26,582-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '100010000', 'retInfo': "SqlMapClient oper[947 chars]ME'"}
+Diff is 1371 characters long. Set self.maxDiff to None to see it.'
+'2019-04-08 23:48:43,575-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [948 chars]000'}
+Diff is 1371 characters long. Set self.maxDiff to None to see it.'
+'2019-04-08 23:51:17,669-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [948 chars]000'}
+Diff is 1371 characters long. Set self.maxDiff to None to see it.'
+'2019-04-08 23:52:55,892-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [948 chars]000'}
+Diff is 1371 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 12:09:25,634-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retCode': '100010000', 'retInfo': "SqlMapCli[955 chars]ME'"}
+Diff is 1371 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 12:33:05,766-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [948 chars]000'}
+Diff is 1371 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 12:36:52,175-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [948 chars]000'}
+Diff is 1371 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 13:02:45,645-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [942 chars]000'}
+Diff is 1365 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 13:45:43,159-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '身份证号错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号错误'}
+?              ++ ++               ^^^^^^
+'
+'2019-04-09 13:45:43,801-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
+?              ^  ^^^^^               ^^^^^
+
++ {'retCode': '19001', 'retInfo': '身份证号错误'}
+?              ^^  ^               ^^^^^^
+'
+'2019-04-09 13:45:43,801-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
+?              ^  ^^^^^               ^^^^^
+
++ {'retCode': '19001', 'retInfo': '身份证号错误'}
+?              ^^  ^               ^^^^^^
+'
+'2019-04-09 13:45:44,450-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:45:44,450-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:45:44,450-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:45:45,068-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:45:45,068-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:45:45,068-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:45:45,068-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:46:49,300-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 13:46:49,896-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:46:49,896-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:46:50,530-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:46:50,530-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:46:50,530-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:47:42,311-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '身份证号错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号错误'}
+?              ++ ++               ^^^^^^
+'
+'2019-04-09 13:47:42,961-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户不存在', 'retCode': '20042002'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 13:47:42,961-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户不存在', 'retCode': '20042002'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 13:47:43,575-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:47:43,575-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:47:43,575-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:47:44,180-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:47:44,180-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:47:44,180-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:47:44,180-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:48:24,502-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+?              ++ ++               ^^^^^^^^
+'
+'2019-04-09 13:48:25,085-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户不存在', 'retCode': '20042002'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 13:48:25,085-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户不存在', 'retCode': '20042002'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 13:48:25,698-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:48:25,698-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:48:25,698-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:48:26,306-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:48:26,306-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:48:26,306-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:48:26,306-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:49:10,553-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+?              ++ ++               ^^^^^^^^
+'
+'2019-04-09 13:49:11,149-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 13:49:11,149-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 13:49:11,804-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:49:11,804-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:49:11,804-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:49:12,461-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:49:12,461-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:49:12,461-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:49:12,461-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:49:37,820-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '身份证号错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号错误'}
+?              ++ ++               ^^^^^^
+'
+'2019-04-09 13:49:39,008-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:49:39,008-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:49:39,608-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:49:39,608-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:49:39,608-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:51:52,142-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '身份证号错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号错误'}
+?              ++ ++               ^^^^^^
+'
+'2019-04-09 13:51:52,779-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户不存在', 'retCode': '20042002'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 13:51:52,779-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户不存在', 'retCode': '20042002'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 13:51:53,377-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:51:53,377-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:51:53,377-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:51:53,965-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:51:53,965-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:51:53,965-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:51:53,965-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '身份证号错误', 'retCode': '19001'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:53:44,104-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+?              ++ ++               ^^^^^^^^
+'
+'2019-04-09 13:53:45,302-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:53:45,302-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:53:45,928-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:53:45,928-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:53:45,928-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:54:41,980-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+?              ++ ++               ^^^^^^^^
+'
+'2019-04-09 13:54:42,586-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 13:54:42,586-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 13:54:43,155-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:54:43,155-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:54:43,155-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:54:43,805-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:54:43,805-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:54:43,805-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:54:43,805-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '19001', 'retInfo': '身份证号错误'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '19001', 'retInfo': '身份证号错误'}
+?                                  ^^^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?                                  ^^^^
+'
+'2019-04-09 13:56:19,748-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+?              ++ ++               ^^^^^^^^
+'
+'2019-04-09 14:02:37,955-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+?              ++ ++               ^^^^^^^^
+'
+'2019-04-09 14:02:38,540-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 14:02:38,540-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 14:02:46,409-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+?              ++ ++               ^^^^^^^^
+'
+'2019-04-09 14:02:47,055-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 14:02:47,055-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 14:03:34,161-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+?              ++ ++               ^^^^^^^^
+'
+'2019-04-09 14:03:34,816-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 14:03:34,816-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 14:04:56,303-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+?              ++ ++               ^^^^^^^^
+'
+'2019-04-09 14:06:36,846-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '19001', 'retInfo': '真实姓名错误'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?              ++ ++               ^^^^^^
+'
+'2019-04-09 14:06:37,398-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 14:06:37,398-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 14:08:27,965-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042002', 'retInfo': '用户不存在'} != {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 14:12:41,234-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+?              ++ ++               ^^^^^^^^
+'
+'2019-04-09 14:12:41,787-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户不存在', 'retCode': '20042002'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 14:12:41,787-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户不存在', 'retCode': '20042002'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 14:14:11,908-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}
+?              ++ ++               ^^^^^^^^
+'
+'2019-04-09 14:14:12,472-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户不存在', 'retCode': '20042002'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 14:14:12,472-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户不存在', 'retCode': '20042002'} != {'retInfo': '身份证号检验错误', 'retCode': '19001'}
+- {'retCode': '20042002', 'retInfo': '用户不存在'}
++ {'retCode': '19001', 'retInfo': '身份证号检验错误'}'
+'2019-04-09 15:23:09,614-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是100006984 != 100006985'
+'2019-04-09 15:23:10,285-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '100010000', 'retInfo': "SqlMapClient oper[947 chars]ME'"}
+Diff is 1371 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 15:23:10,285-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '100010000', 'retInfo': "SqlMapClient oper[947 chars]ME'"}
+Diff is 1371 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 15:27:28,841-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [948 chars]000'}
+Diff is 1371 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 15:43:56,695-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '卡号错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '卡号错误'}
+?              ++ ++               ^^^^
+'
+'2019-04-09 15:45:14,570-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户交易密码不正确或未配置', 'retCode': '20042018'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}'
+'2019-04-09 15:46:00,037-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '真实姓名错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名错误'}
+?              ++ ++               ^^^^^^
+'
+'2019-04-09 15:46:00,672-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 15:46:00,672-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 15:46:32,570-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}'
+'2019-04-09 15:48:54,900-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户交易密码不正确或未配置', 'retCode': '20042018'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}'
+'2019-04-09 16:03:36,492-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '100010000', 'retInfo': "SqlMapClient oper[959 chars]ME'"}
+Diff is 1417 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 16:03:37,133-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:03:37,133-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:03:37,747-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'faultstring': 'Unmarshalling Error: For i[41 chars]ent'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'faultcode': 'soap:Client',
++  'faultstring': 'Unmarshalling Error: For input string: "" '}'
+'2019-04-09 16:03:37,747-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'faultstring': 'Unmarshalling Error: For i[41 chars]ent'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'faultcode': 'soap:Client',
++  'faultstring': 'Unmarshalling Error: For input string: "" '}'
+'2019-04-09 16:03:37,747-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'faultstring': 'Unmarshalling Error: For i[41 chars]ent'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'faultcode': 'soap:Client',
++  'faultstring': 'Unmarshalling Error: For input string: "" '}'
+'2019-04-09 16:03:38,390-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:03:38,390-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:03:38,390-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:03:38,390-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:04:10,203-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户交易密码不正确或未配置', 'retCode': '20042018'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}'
+'2019-04-09 16:04:10,893-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'faultstring': 'Unmarshalling Error: For i[41 chars]ent'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'faultcode': 'soap:Client',
++  'faultstring': 'Unmarshalling Error: For input string: "" '}'
+'2019-04-09 16:04:10,893-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'faultstring': 'Unmarshalling Error: For i[41 chars]ent'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'faultcode': 'soap:Client',
++  'faultstring': 'Unmarshalling Error: For input string: "" '}'
+'2019-04-09 16:04:11,528-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户实名信息比对错误', 'retCode': '20042006'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?              + ++++++               ^^^^^^^^^^
+'
+'2019-04-09 16:04:11,528-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户实名信息比对错误', 'retCode': '20042006'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?              + ++++++               ^^^^^^^^^^
+'
+'2019-04-09 16:04:11,528-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户实名信息比对错误', 'retCode': '20042006'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?              + ++++++               ^^^^^^^^^^
+'
+'2019-04-09 16:15:47,315-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}'
+'2019-04-09 16:15:47,928-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'faultcode': 'soap:Client', 'faultstring':[41 chars]"" '}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'faultcode': 'soap:Client',
++  'faultstring': 'Unmarshalling Error: For input string: "" '}'
+'2019-04-09 16:15:47,928-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'faultcode': 'soap:Client', 'faultstring':[41 chars]"" '}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'faultcode': 'soap:Client',
++  'faultstring': 'Unmarshalling Error: For input string: "" '}'
+'2019-04-09 16:20:44,425-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '100010000', 'retInfo': "SqlMapClient oper[959 chars]ME'"}
+Diff is 1417 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 16:20:45,047-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:20:45,047-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:20:45,698-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042006', 'retInfo': '用户实名信息比对错误'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 16:20:45,698-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042006', 'retInfo': '用户实名信息比对错误'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 16:20:45,698-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042006', 'retInfo': '用户实名信息比对错误'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 16:21:55,452-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '0', 'retInfo': 'ok'} != {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}'
+'2019-04-09 16:23:28,608-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户交易密码不正确或未配置', 'retCode': '20042018'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}'
+'2019-04-09 16:23:29,317-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '支付密码错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '支付密码错误'}
+?              ++ ++               ^^^^^^
+'
+'2019-04-09 16:23:29,317-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '支付密码错误', 'retCode': '19001'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '支付密码错误'}
+?              ++ ++               ^^^^^^
+'
+'2019-04-09 16:24:40,955-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retCode': '19001', 'retInfo': '真实姓名必须为中文'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '19001', 'retInfo': '真实姓名必须为中文'}
+?              ++ ++               ^^^^^^^^^
+'
+'2019-04-09 16:24:41,620-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:24:41,620-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:24:42,844-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042006', 'retInfo': '用户实名信息比对错误'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 16:24:42,844-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042006', 'retInfo': '用户实名信息比对错误'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 16:24:42,844-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retCode': '20042006', 'retInfo': '用户实名信息比对错误'} != {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 16:26:25,838-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户交易密码不正确或未配置', 'retCode': '20042018'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}'
+'2019-04-09 16:45:44,066-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [948 chars]000'}
+Diff is 1371 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 16:45:53,258-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [960 chars]000'}
+Diff is 1417 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 16:45:53,258-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [960 chars]000'}
+Diff is 1417 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 16:45:53,904-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:45:53,904-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:45:53,904-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '0', 'retInfo': 'ok'}
+?                              ^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?              + ++++++               ^^^^^^^^^^^
+'
+'2019-04-09 16:45:55,193-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户实名信息比对错误', 'retCode': '20042006'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 16:45:55,193-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户实名信息比对错误', 'retCode': '20042006'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 16:45:55,193-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户实名信息比对错误', 'retCode': '20042006'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 16:45:55,193-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户实名信息比对错误', 'retCode': '20042006'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 16:46:53,125-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': '用户交易密码不正确或未配置', 'retCode': '20042018'}
+- {'retCode': '0', 'retInfo': 'ok'}
++ {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}'
+'2019-04-09 20:46:53,928-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [942 chars]000'}
+Diff is 1365 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 20:47:04,641-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [954 chars]000'}
+Diff is 1377 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 20:47:04,641-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': 'ok', 'retCode': '0'} != {'retInfo': "SqlMapClient operation; SQL [];   \n--- [954 chars]000'}
+Diff is 1377 characters long. Set self.maxDiff to None to see it.'
+'2019-04-09 20:47:05,349-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户交易密码不正确或未配置', 'retCode': '20042018'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}
+?                    ^^                 ^^^^ ^^^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                    ^^                 ^^^^^^ ^^
+'
+'2019-04-09 20:47:05,349-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户交易密码不正确或未配置', 'retCode': '20042018'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}
+?                    ^^                 ^^^^ ^^^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                    ^^                 ^^^^^^ ^^
+'
+'2019-04-09 20:47:05,349-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户交易密码不正确或未配置', 'retCode': '20042018'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '20042018', 'retInfo': '用户交易密码不正确或未配置'}
+?                    ^^                 ^^^^ ^^^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                    ^^                 ^^^^^^ ^^
+'
+'2019-04-09 20:47:07,002-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户实名信息比对错误', 'retCode': '20042006'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 20:47:07,002-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户实名信息比对错误', 'retCode': '20042006'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 20:47:07,002-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户实名信息比对错误', 'retCode': '20042006'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
+'2019-04-09 20:47:07,002-DEBUG-loger.py-py14-日志信息:断言出错啦，错误是{'retInfo': '用户实名信息比对错误', 'retCode': '20042006'} != {'retInfo': '用户实名认证信息不存在', 'retCode': '20042004'}
+- {'retCode': '20042006', 'retInfo': '用户实名信息比对错误'}
+?                     ^                     ^^^^
+
++ {'retCode': '20042004', 'retInfo': '用户实名认证信息不存在'}
+?                     ^                   ++  ^^^
+'
