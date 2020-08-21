@@ -32,7 +32,7 @@ class Request():
 if __name__ == '__main__':
     url = 'http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl'
     # client = Client(url)
-    # params={'uid':'100006982','true_name':'筱雪雪','cre_id':429006199104089560}
+    # params={'uid':'100006982','true_name':'筱雪雪','cre_id':429006199604089560}
     params ={'uid':'100006982','pay_pwd':'123','mobile':'#tel#','cre_id':'#IDCARD#','user_name':'USERNAME','cardid':'1234567897777','bank_type':'1001','bank_name':'中国银行'}
     result=Request(url,params).web_request('bindBankCard')
     print(result)
