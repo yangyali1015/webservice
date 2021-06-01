@@ -16,4 +16,4 @@ pywin32-ctypes==0.2.0
 requests==2.21.0
 suds==0.4
 suds-jurko===0.4.1.jurko.4
-urllib3==1.24.1
+urllib3==1.26.5
